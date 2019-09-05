@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(0, 0, 0, 0.932);
+}
+.container{
+    background-color: black;
+    border: .5px rgb(56, 56, 56) solid;
+    border-radius: 15px;
+    width: 215px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 150px auto 0px auto;
+}
+#result-box{
+    height: 50px;
+    color: lightgrey;
+    text-align: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 60px;
+    line-height: 0;
+}
+.num-btn {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    line-height: 0;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 12px; 
+}
+
+.op-btn {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    line-height: 0;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 12px; 
+}
+
+.act-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    line-height: 0;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 12px; 
+}
+
+#button-0 {
+    width: 105px;
+    border-radius:40px/40px;
+}
+

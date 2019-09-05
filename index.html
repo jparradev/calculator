@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Calculator</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card" id="result-box">
+            <p id="result"></p>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+
+                <button id="button-clear" class="act-btn clear" value="clear">
+                    <h1>C</h1>
+                </button>
+                <button id="button-pos-neg" class="act-btn pos" value="pos-neg">
+                    <h1>±</h1>
+                </button>
+                <button id="button-percent" class="act-btn percent" value="percent">
+                    <h1>%</h1>
+                </button>
+                <button id="button-divide" class="op-btn operator" value="divide">
+                    <h1>÷</h1>
+                </button>
+
+                <br><br>
+
+
+                <button id="button-7" class="num-btn number" value="7">
+                    <h1>7</h1>
+                </button>
+                <button id="button-8" class="num-btn number" value="8">
+                    <h1>8</h1>
+                </button>
+                <button id="button-9" class="num-btn number" value="9">
+                    <h1>9</h1>
+                </button>
+                <button id="button-multiply" class="op-btn operator" value="times">
+                    <h1>&times;</h1>
+                </button>
+                <br><br>
+
+                <button id="button-4" class="num-btn number" value="4">
+                    <h1>4</h1>
+                </button>
+                <button id="button-5" class="num-btn number" value="5">
+                    <h1>5</h1>
+                </button>
+                <button id="button-6" class="num-btn number" value="6">
+                    <h1>6</h1>
+                </button>
+                <button id="button-minus" class="op-btn operator" value="minus">
+                    <h1>&minus;</h1>
+                </button>
+                <br><br>
+
+                <button id="button-1" class="num-btn number" value="1">
+                    <h1>1</h1>
+                </button>
+                <button id="button-2" class="num-btn number" value="2">
+                    <h1>2</h1>
+                </button>
+                <button id="button-3" class="num-btn number" value="3">
+                    <h1>3</h1>
+                </button>
+                <button id="button-plus" class="op-btn operator" value="plus">
+                    <h1>+</h1>
+                </button>
+                <br><br>
+
+
+                <button id="button-0" class="num-btn number" value="0">
+                    <h1>0</h1>
+                </button>
+                <button id="button-point" class="num-btn number" value=".">
+                    <h1>.</h1>
+                </button>
+                <button id="button-equal" class="op-btn equal" value="equals">
+                    <h1>=</h1>
+                </button>
+                <br><br>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
